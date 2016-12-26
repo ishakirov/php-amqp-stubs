@@ -151,6 +151,7 @@ class AMQPExchange
         $flags = AMQP_NOPARAM,
         array $attributes = array()
     ) {
+      throw new \BadMethodCallException('You are using stub classes of AMQP extension!');
     }
 
     /**
